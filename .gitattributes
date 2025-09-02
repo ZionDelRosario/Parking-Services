@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
+# Auto detect text files and normalize line endings
 * text=auto
+
+# Explicitly declare Java source files as text
+*.java text
+
+# Make scripts always use LF (for Linux/Mac compatibility)
+*.sh text eol=lf
