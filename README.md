@@ -14,7 +14,8 @@ It allows users to register, book parking slots, and manage their accounts, whil
 - Exit parking slot
 
 ### 🛠 Admin
-- Login as admin (user = "admin", pass = "admin")
+- Login as admin
+- Admin login: username = admin, password = admin
 - View all registered users
 - View all vehicles
 - Monitor parking slots (occupied/free)
