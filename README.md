@@ -1,31 +1,32 @@
-# Parking-Services
-This is a **Parking Management System** built using **Java** with **Object-Oriented Programming (OOP)** concepts.   It is a console-based application that allows users to register, log in, register vehicles, book parking slots, and manage transactions.   The system also includes an **Admin panel** for managing parking slots, cash-in requests, and transaction history.
+# 🚗 Parking Management System (Java, OOP)
 
-## ✨ Features
-
-### 👤 User Features
-- Register and log in with unique ID and password  
-- View and update profile  
-- Register multiple vehicles (2-wheel / 4-wheel)  
-- Book and unbook parking slots  
-- Cash-in balance for parking fees  
-- View ongoing and finished transactions  
-
-### 🛠️ Admin Features
-- Log in as admin with credentials  
-- Manage parking slots (apply penalties, free slots)  
-- Approve or deny user cash-in requests  
-- View full transaction history of users  
+A simple Parking Management System built in **Java** using **classes** and **object-oriented programming (OOP)** concepts.  
+It allows users to register, book parking slots, and manage their accounts, while admins can monitor and manage the system.
 
 ---
 
-## 🏗️ Technologies Used
-- **Java (JDK 8 or higher)**  
-- **Object-Oriented Programming (OOP)** principles  
+## 📂 Features
+### 👤 User
+- Register and login
+- Book a parking slot
+- View and manage transactions
+- Cash-in balance
+- Exit parking slot
+
+### 🛠 Admin
+- Login as admin (user = "admin", pass = "admin")
+- View all registered users
+- View all vehicles
+- Monitor parking slots (occupied/free)
+- Enforce penalties for overtime parking
+- Clear or release slots
+- Manage parking rates
+- Confirm users cash in request
 
 ---
 
-## ▶️ How to Run
-1. Clone the repository:
+## ⚡ How to Run
+1. **Clone the repository**
    ```bash
    git clone https://github.com/ziondelrosario/Parking-Services.git
+   cd Parking-Services
